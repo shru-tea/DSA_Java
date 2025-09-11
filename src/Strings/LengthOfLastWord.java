@@ -15,8 +15,7 @@ public class LengthOfLastWord {
         }
         s=s.trim();
         String[] arr = s.split(" ");
-        int l = arr[arr.length-1].length();
-        return l;
+        return arr[arr.length-1].length();
     }
     static int lengthOfLastWordOptimized(String s){
         // need to iterate and calculate the length of last word
